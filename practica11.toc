@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.10pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Resumen}{6}{0}{1}
+\beamer@sectionintoc {2}{Historia del C\IeC {\'a}lculo de PI}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Antiguo Egipto}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Mesopotamia}{10}{0}{2}
+\beamer@sectionintoc {3}{Uso en matem\IeC {\'a}ticas y otras ciencias}{11}{0}{3}
+\beamer@sectionintoc {4}{Bibliograf\IeC {\'\i }a}{12}{0}{4}

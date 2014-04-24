@@ -1,0 +1,108 @@
+\documentclass {beamer}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title[Presentacion con Beamer]{El número PI}
+\author[Desiree]{C. Desiree Praena Pacheco\\Universidad de La Laguna}
+\institute{ULL}
+\date[xxxxxxxxxxxx]{24 de abril de 2014}
+
+
+\usetheme {Madrid}
+
+\definecolor{MiVioleta}{RGB}{122,59,122}
+\definecolor{MiAzul}{RGB}{0,88,147}
+\definecolor{MiGris}{RGB}{56,61,66}
+
+
+\setbeamercolor {palette primary}{use=structure, fg=white, bg= MiVioleta}
+\setbeamercolor {palette secundary}{use=structure, fg=white, bg= MiAzul}
+\setbeamercolor {palette tertiary}{use=structure, fg=white, bg= MiGris}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Indice}
+\tableofcontents[pausesections]
+\end{frame}
+
+\section{Resumen}
+
+\begin{frame}
+\frametitle{Resumen}
+
+El día 14 de marzo se celebra mundialmente el día de $\pi$, por ser su notación en algunos países, 3-14, una aproximación de dicho número.
+Del número $\pi$ sabemos muchísimas cosas como que es irracional y trascendente, es protagonista de muchas fórmulas conocidas (como en áreas y volúmenes de figuras sencillas como la esfera), aparece en cuestiones relacionadas con probabilidad, está relacionado con el conjunto de Mandelbrot, forma parte de la identidad de Euler…
+…pero también hay cosas que no sabemos: una de ellas, posiblemente la más importante es que no sabemos si el número $\pi$ es 
+
+\end{frame}
+
+\section{Historia del Cálculo de PI}
+\begin{frame}
+\frametitle{Historia del cálculo de PI}
+
+El valor de $\pi$ se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e.
+La notación con la letra griega $\pi$ proviene de la inicial de las palabras de origen griego 'periferia' y 'perímetro' de un círculo, notación que fue utilizada primero por William Oughtred, cuyo uso fue propuesto por el matemático galés William Jones; aunque fue el matemático Leonhard Euler, con su obra 'Introducción al cálculo infinitesimal' quien la popularizó. Fue conocida anteriormente como constante de Ludolph (en honor al matemático Ludolph van Ceulen) o como constante de Arquímedes (que no se debe confundir con el número de Arquímedes).
+
+La aproximación de arquímedes mediante polígonos regulares nos da como resultado los siguientes datos:
+
+\end{frame}
+
+\begin{frame}
+\begin{tabular}{ll}
+
+Lados & Número Obtenido\\
+\hline
+36 & 3,1\\
+360 & 3,141\\
+3600 & 3,1415926\\
+360000 & 3,141592653\\
+3600000 & 3,14159265358\\
+36000000 & 3,1415926535897\\
+360000000 & 3,141592653589793\\
+3600000000 & 3,14159265358979324
+
+\end{tabular}
+\end{frame}
+
+\subsection {Antiguo Egipto}
+\begin{frame}
+\frametitle {Antiguo Egipto}
+El valor aproximado de $\Pi$ en las antiguas culturas se remonta a la época del escriba egipcio Ahmes en el año 1800 a. C., descrito en el papiro Rhind,3 donde se emplea un valor aproximado de $\Pi$ afirmando que el área de un círculo es similar a la de un cuadrado cuyo lado es igual al diámetro del círculo disminuido en 1/9; es decir, igual a 8/9 del diámetro.
+Entre los ocho documentos matemáticos hallados de la antigua cultura egipcia, en dos se habla de círculos. Uno es el papiro Rhind y el otro es el papiro de Moscú. Sólo en el primero se habla del valor aproximado del número $\Pi$. El investigador Otto Neugebauer, en un anexo de su libro The Exact Sciences in Antiquity,4 describe un método inspirado en los problemas del papiro de Ahmes para averiguar el valor de $\Pi$, mediante la aproximación del área de un cuadrado de lado 8, a la de un círculo de diámetro 8.
+\end{frame}
+\subsection{Mesopotamia}
+\begin{frame}
+\frametitle{Mesopotamia}
+Algunos matemáticos mesopotámicos empleaban, en el cálculo de segmentos, valores de $\Pi$ igual a 3, alcanzando en algunos casos valores más aproximados, como el de:
+\centerline{$\Pi \approx 3 + \frac{1}{8} = 3,125$} 
+\end{frame}
+
+\section{Uso en matemáticas y otras ciencias}
+\begin{frame}
+\frametitle{Uso en matemáticas y otras ciencias}
+
+\begin{itemize}
+\item ejemplo 1 \pause
+\item ejemplo 2 \pause
+\item ejemplo 3 \pause
+\end{itemize}
+
+\end{frame}
+\section{Bibliografía}
+\begin{frame}
+\frametitle{Bibliografía}
+\begin{thebibliography}{10}
+\beamertemplatebookbibitems
+\bibitem[Guia Docente,2013]{guia}
+Guia docente (Año 2013)
+{\small $https://www.ull.es$}
+
+\end{thebibliography}
+\end{frame}
+\end{document}
